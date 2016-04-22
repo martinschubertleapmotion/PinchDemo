@@ -13,7 +13,7 @@ public class SlingShotLine : MonoBehaviour {
 		LineRenderer lineRenderer = gameObject.AddComponent<LineRenderer>();
 		lineRenderer.material = Material;
 		lineRenderer.SetColors(c1, c2);
-		lineRenderer.SetWidth(0.02F, 0.001F);
+		lineRenderer.SetWidth(0.5F, 0.01F);
 		lineRenderer.SetVertexCount(lengthOfLineRenderer);
 	}
 	void Update() {
